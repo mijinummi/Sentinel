@@ -48,3 +48,21 @@ Sentinel/
 ├── packages/
 │   └── shared-utils/  # Common logic for Stellar and EVM parsing
 └── LICENSE            # MIT Licensed
+
+
+Sentinel/
+├── .github/
+│   ├── ISSUE_TEMPLATE/ # Templates for Bug Reports and Features
+│   └── workflows/      # CI/CD for testing
+├── apps/
+│   ├── bot/           # Core monitoring service
+│   └── dashboard/     # Frontend rule manager
+├── libs/
+│   ├── scanners/      # "Danger Signature" detection logic
+│   └── notify/        # Discord/Telegram/Webhook providers
+├── docs/
+│   └── architecture.md # Deep dive into how Sentinel works
+├── CONTRIBUTING.md     # Guidelines for contributors
+├── SECURITY.md         # Vulnerability reporting process
+├── LICENSE             # MIT License
+└── README.md           # You are here!
